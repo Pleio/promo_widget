@@ -48,7 +48,7 @@ foreach ($sides as $side) {
 		if (!empty($background)) {
 			$side_content['class'][] = $background;
 		}
-	} elseif($type === 'image') {
+	} elseif ($type === 'image') {
 		$image = $widget->get("{$side}_image");
 		
 		if (empty($image)) {
