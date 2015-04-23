@@ -18,5 +18,6 @@ $language = array (
   'promo_widget:background:light_grey' => 'Licht grijs',
   'promo_widget:background:grey' => 'Grijs',
   'promo_widget:background:dark_grey' => 'Donker grijs',
+  'promo_widget:widget:empty' => 'Deze widget moet nog worden ingesteld',
 );
 add_translation("nl", $language);

@@ -36,7 +36,7 @@ foreach ($sides as $side) {
 	}
 	$content .= "<div class='{$text_class}'>";
 	$content .= '<label>' . elgg_echo("promo_widget:widget:edit:text") . '</label>';
-	$content .= elgg_view('input/plaintext', array(
+	$content .= elgg_view('input/promo_widget_text', array(
 		'name' => "params[{$side}_text]",
 		'value' => $widget->get("{$side}_text")
 	));

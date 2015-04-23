@@ -24,6 +24,8 @@ $english = array(
 	'promo_widget:background:light_grey' => "Light grey",
 	'promo_widget:background:grey' => "Grey",
 	'promo_widget:background:dark_grey' => "Dark grey",
+
+	'promo_widget:widget:empty' => "You need to configure this widget",
 );
 
 add_translation('en', $english);

@@ -35,3 +35,27 @@
 	padding: 0;
 	text-align: center;
 }
+
+.elgg-widget-instance-promo_widget .elgg-widget-content > table {
+	width: 100%;
+}
+.elgg-widget-instance-promo_widget .elgg-widget-content > table td {
+	float: none;
+}
+
+.elgg-widget-instance-promo_widget .elgg-widget-content > table a {
+	display: inline-block;
+	height:200px;
+	width:100%;
+	text-align: center;
+}
+.elgg-widget-instance-promo_widget .elgg-widget-content > table a .elgg-output {
+	padding: 20px;
+}
+.promo-widget-type-image a {
+	color: transparent;
+}
+
+.promo-widget-type-image {
+	background-size: cover !important;
+}
