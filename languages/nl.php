@@ -1,5 +1,7 @@
 <?php
 $language = array (
+  'promo_widget:widget:edit:type:image_upload' => 'Afbeelding uploaden',
+  'promo_widget:widget:edit:image_upload' => 'Selecteer een afbeelding om te uploaden',
   'promo_widget:widget:title' => 'Promotie',
   'promo_widget:widget:description' => 'Voeg een banner en/of tekst toe aan je pagina',
   'promo_widget:widget:edit:right:title' => 'Rechter widget kant',
