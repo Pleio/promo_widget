@@ -25,7 +25,7 @@ function promo_widget_init() {
 	elgg_register_page_handler('promo_widget', 'promo_widget_page_handler');
 	
 	// regsiter widget
-	elgg_register_widget_type('promo_widget', elgg_echo('promo_widget:widget:title'), elgg_echo('promo_widget:widget:description'), 'index', true);
+	elgg_register_widget_type('promo_widget', elgg_echo('promo_widget:widget:title'), elgg_echo('promo_widget:widget:description'), 'index,groups', true);
 	
 	// plugin hooks
 	elgg_register_plugin_hook_handler('action', 'widgets/save', 'promo_widget_widget_save_action_hook');
