@@ -95,7 +95,7 @@ foreach ($sides as $side) {
 
 ?>
 <script>
-	$('#widget-edit-<?php echo $widget->getGUID(); ?> form').attr('enctype', 'multipart/form-data').live("submit", function(event) {
+	$('#widget-edit-<?php echo $widget->getGUID(); ?> form').attr('enctype', 'multipart/form-data').submit(function(event) {
 		event.stopPropagation();
 		event.stopImmediatePropagation();
 	});
